@@ -1,0 +1,316 @@
+<!-- bootstrap css -->
+<link href="/cms/lib/TN01917090/Centricity/Domain/34/bootstrap-theme.min.css" rel="stylesheet" crossorigin="anonymous">
+<link href="/cms/lib/TN01917090/Centricity/Domain/34/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<!-- font awesome -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<!-- bootstrap js -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/cms/lib/TN01917090/Centricity/Domain/34/equal_height.js"></script>
+<style>
+/***
+** blue border fix
+***/
+*:focus {
+  outline-width: 0;
+}
+/***
+** vertical align
+***/
+.aligner {display: inline-table;}
+.aligner-middle {
+  vertical-align: middle;
+  display: table-cell;
+  padding: 10%;
+}
+/***
+** bootstrap fixes
+***/
+*:before, *:after, * {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+.container *:before, .container *:after, .container * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/***
+** custom styles
+***/
+.row {margin-bottom: 1px;}
+[class^="col-"],[class*=" col-"] {border-right: 1px solid #fff;}
+a.col-md-4, a.col-md-6 {text-decoration: none;}
+a.col-md-4:hover, a.col-md-4:focus, 
+a.col-md-6:hover, a.col-md-6:focus {opacity: .85;}
+i.fa {margin: 0 0 0 10px;}
+.yellow-bg {background: #ecae37;padding: 0;}
+.dark-blue-bg {background: #2a3234;padding: 0;}
+.mid-blue-bg {background: #3a5053; padding: 0;}
+.blue-bg {background: #61c8cf;padding: 0;}
+.red-bg {background: #c44427;padding: 0;}
+.academics h2, .diversity h2, .partners h2 {font-size: 4em;}
+.academics p, .diversity p, .partners p {font-size: 1.5em;margin: 12px 0 0 0;}
+.academics h2, .diversity h2, .partners h2, .academics p, .diversity p, .partners p {
+  color: #3a5053;
+}
+.highlights .col-md-4 {min-height:249px !important;}
+.coding, .school-of-month, .teacher-of-month {
+  padding: 2%;
+}
+.coding h2, .school-of-month h2, .teacher-of-month h2 {
+  font-size: 2em;
+  line-height: 1.2em;
+  color: #FFF;
+  padding: 0 0 5px 0;
+}
+.coding p, .school-of-month p, .teacher-of-month p {
+  font-size: 1.3em;
+  color: #FFF;
+}
+.school-of-month h2, .school-of-month p {
+  color: #2a3234;
+}
+.video {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  text-align: center;
+}
+.video:hover .fa-play {
+  font-size: 2.8em;
+}
+.video .fa-play {
+  font-size: 2.4em;
+  color: white;
+  -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+       -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+/***
+** youtube embed
+***/
+.youtube-player {
+  position: relative;
+  padding-bottom: 56.23%;
+  /* Use 75% for 4:3 videos */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+  margin: 5px;
+}
+.youtube-player iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background: transparent;
+}
+.youtube-player img {
+  bottom: 0;
+  display: block;
+  left: 0;
+  margin: auto;
+  max-width: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  height: auto;
+  cursor: pointer;
+  -webkit-transition: .4s all;
+  -moz-transition: .4s all;
+  transition: .4s all;
+}
+.youtube-player img:hover {
+  -webkit-filter: brightness(75%);
+}
+.youtube-player .play {
+  height: 72px;
+  width: 72px;
+  left: 50%;
+  top: 50%;
+  margin-left: -36px;
+  margin-top: -36px;
+  position: absolute;
+  background: url("//i.imgur.com/TxzC70f.png") no-repeat;
+  cursor: pointer;
+}
+</style>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-12 text-center">
+      <h1>Highlights</h1>
+    </div>
+  </div>
+
+  <div class="row academics">
+    <a href="#" class="col-xs-12 col-md-6 aligner yellow-bg eql">
+      <div class="aligner-middle">
+        <h2>300 Different Academic Tracks</h2>
+        <p>Enroll A Student<i class="fa fa-long-arrow-right"></i></p>
+      </div>
+    </a>
+    <div class="col-xs-12 col-md-6 yellow-bg eql">
+      <img src="http://sodiumhalogen.com/up_c/writing-onxX24sDGV.gif" width="100%">
+    </div>
+  </div>
+
+  <div class="row highlights hl-row-1">
+    <a href="#" class="col-xs-12 col-md-4 dark-blue-bg aligner coding eql">
+      <span class="aligner-middle">
+        <h2>Coding program</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ea rerum culpa neque temporibus.</p>
+        <p>See more<i class="fa fa-long-arrow-right"></i></p>
+      </span>
+    </a>
+    <a data-toggle="modal" href='#modal-id-1' class="col-xs-12 col-md-4 yellow-bg video coding aligner eql" style="background-image: url('http://i.imgur.com/ronFA8m.png');">
+      <p class="aligner-middle"><i class="fa fa-play"></i></p>
+    </a>
+    <a href="#" class="col-xs-12 col-md-4 blue-bg aligner school-of-month eql">
+      <span class="aligner-middle">
+        <h2>School of the Month</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ea rerum culpa neque temporibus.</p>
+        <p>See more<i class="fa fa-long-arrow-right"></i></p>
+      </span>
+    </a>
+  </div>
+
+  <div class="row diversity">
+    <div class="col-xs-12 col-md-6 yellow-bg eql">
+      <img src="http://i.imgur.com/HFV9DM4.jpg" width="100%">
+    </div>
+    <a href="#" class="col-xs-12 col-md-6 aligner yellow-bg eql">
+      <div class="aligner-middle">
+        <h2>Diversity of JMCSS</h2>
+        <p>Join Our Team<i class="fa fa-long-arrow-right"></i></p>
+      </div>
+    </a>
+  </div>
+
+  <div class="row highlights hl-row-2">
+    <a href="#" class="col-xs-12 col-md-4 red-bg aligner teacher-of-month eql">
+      <span class="aligner-middle">
+        <h2>Teacher of the Month</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ea rerum culpa neque temporibus.</p>
+        <p>See more<i class="fa fa-long-arrow-right"></i></p>
+      </span>
+    </a>
+    <a data-toggle="modal" href='#modal-id-2' class="col-xs-12 col-md-4 yellow-bg video coding aligner eql" style="background-image: url('http://i.imgur.com/wWVye8Q.gif');">
+      <p class="aligner-middle"><i class="fa fa-play"></i></p>
+    </a>
+    <a href="#" class="col-xs-12 col-md-4 mid-blue-bg aligner coding eql">
+      <span class="aligner-middle">
+        <h2>Lunch menu</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ea rerum culpa neque temporibus.</p>
+        <p>See more<i class="fa fa-long-arrow-right"></i></p>
+      </span>
+    </a>
+  </div>
+
+  <div class="row partners">
+    <a href="#" class="col-xs-12 col-md-6 aligner yellow-bg eql">
+      <div class="aligner-middle">
+        <h2>Develop a future generation.</h2>
+        <p>Partner with us<i class="fa fa-long-arrow-right"></i></p>
+      </div>
+    </a>
+    <div class="col-xs-12 col-md-6 yellow-bg eql">
+      <img src="http://i.imgur.com/9j3v0eh.jpg" width="100%">
+    </div>
+  </div>
+</div>
+<!-- video modal #1 -->
+<div class="modal fade" id="modal-id-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h2 class="modal-title">We have a story to tell...</h2>
+      </div>
+      <div class="modal-body">
+        <div class="youtube-player" data-id="Nopg8mx3aBo"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- video modal #2 -->
+<div class="modal fade" id="modal-id-2">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h2 class="modal-title">We have a story to tell...</h2>
+      </div>
+      <div class="modal-body">
+        <div class="youtube-player" data-id="5uaLVrbmnPg"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+$(window).resize(function() {
+    // equal height
+    equalheight('.academics .eql');
+    equalheight('.highlights.hl-row-1 .eql');
+    equalheight('.diversity .eql');
+    equalheight('.highlights.hl-row-2 .eql');
+    equalheight('.partners .eql');
+    equalheight('.cta .eql');
+});
+  $(window).ready(function() {
+    // equal height
+    equalheight('.academics .eql');
+    equalheight('.highlights.hl-row-1 .eql');
+    equalheight('.diversity .eql');
+    equalheight('.highlights.hl-row-2 .eql');
+    equalheight('.partners .eql');
+    equalheight('.cta .eql');
+
+    // fix container
+    $('.column-inner').removeClass('column-inner');
+  });
+</script>
+<script>
+  /* Light YouTube Embeds by @labnol */
+  /* Web: http://labnol.org/?p=27941 */
+  document.addEventListener("DOMContentLoaded",
+    function() {
+      var div, n,
+      v = document.getElementsByClassName("youtube-player");
+      for (n = 0; n < v.length; n++) {
+      div = document.createElement("div");
+      div.setAttribute("data-id", v[n].dataset.id);
+      div.innerHTML = labnolThumb(v[n].dataset.id);
+      div.onclick = labnolIframe;
+      v[n].appendChild(div);
+    }
+  });
+  function labnolThumb(id) {
+    var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+    play = '<div class="play"></div>';
+    return thumb.replace("ID", id) + play;
+  }
+  function labnolIframe() {
+    var iframe = document.createElement("iframe");
+    var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+    iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+    iframe.setAttribute("frameborder", "0");
+    iframe.setAttribute("allowfullscreen", "1");
+    this.parentNode.replaceChild(iframe, this);
+  }
+</script>
